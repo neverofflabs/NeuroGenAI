@@ -13,7 +13,3 @@ venv/
 # System
 .DS_Store
 Thumbs.db
-
-# Outputs
-data/outputs/
-outputs/
