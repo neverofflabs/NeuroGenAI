@@ -1,0 +1,19 @@
+# Python / Virtualenv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+.ipynb_checkpoints
+
+# Jupyter
+*.ipynb_checkpoints
+
+# System
+.DS_Store
+Thumbs.db
+
+# Outputs
+data/outputs/
+outputs/
