@@ -22,6 +22,7 @@ NEUROGENAI/
     ├──outputs
     ├──processed
     ├──raw
+├── eda/               # Visual & interactive EDA reports
 ├── notebooks/         # Jupyter notebooks
 ├── src/               # Modular Python codebase
 │   ├── data/          # Loaders for FASTA, SNPs, VCFs
@@ -30,7 +31,7 @@ NEUROGENAI/
 │   ├── nlp/           # DNABERT embedding bridge
 │   ├── snn/           # Brian2-based spike models
 │   ├── viz/           # Visual tools: spike plots, GC maps
-│   └── streamlit_app/ # Frontend demo app (coming soon)
+├── streamlit_app/     # Frontend demo app (coming soon)
 ├── LICENSE
 ├── README.md
 ├── requirements.txt
