@@ -1,0 +1,9 @@
+{
+    "model_id": "armheb/DNA_bert_6",
+    "vector_dim": 768,
+    "sequence_count": 100,
+    "source_fasta": "data/processed/human_fasta_clean.csv",
+    "kmer_size": 6,
+    "device": "cpu",
+    "huggingface_url": "https://huggingface.co/zhihan1996/DNA_bert_6"
+}
