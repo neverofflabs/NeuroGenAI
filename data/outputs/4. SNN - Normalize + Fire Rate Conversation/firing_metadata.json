@@ -1,0 +1,9 @@
+{
+    "input_shape": [
+        100,
+        768
+    ],
+    "rate_max_hz": 120,
+    "normalized": true,
+    "output": "data/processed/dnabert_rate_vectors.npy"
+}

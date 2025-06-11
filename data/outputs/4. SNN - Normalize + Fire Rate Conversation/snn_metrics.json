@@ -1,0 +1,8 @@
+{
+    "total_spikes": 36235,
+    "neurons": 768,
+    "mean_firing_rate": 47.180989583333336,
+    "max_firing_rate": 48,
+    "entropy": 9.584914680745086,
+    "gini": 0.00314178136930221
+}
