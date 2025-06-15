@@ -1,0 +1,8 @@
+{
+    "model_id": "zhihan1996/DNA_bert_6",
+    "vector_dim": 768,
+    "n_sequences": 100,
+    "fasta_source": "data/processed/human_fasta_clean.csv",
+    "rate_max_hz": 120,
+    "duration_ms": 100
+}

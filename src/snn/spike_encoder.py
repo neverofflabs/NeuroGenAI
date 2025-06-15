@@ -1,6 +1,3 @@
-# 🧠 NeuroGenAI | Spike Encoder: DNABERT to Neuron Firing Rates
-
-
 import os
 import numpy as np
 import matplotlib.pyplot as plt
@@ -29,7 +26,6 @@ class SpikeEncoder:
         return rates
 
     def encode_and_save(self, embeddings: np.ndarray, output_dir="data/processed", prefix="spikes"):
-        os.makedirs(output_dir, exist_ok=True)
 
         normed = self.normalize_embeddings(embeddings)
         firing_rates = self.to_firing_rates(normed)
@@ -63,7 +59,6 @@ class SpikeEncoder:
         return spike_train
 
     def plot_raster(self, spike_train: np.ndarray, save_path="outputs/spike_train_preview.png"):
-        os.makedirs(os.path.dirname(save_path), exist_ok=True)
 
         plt.figure(figsize=(10, 5))
         t, n = spike_train.shape

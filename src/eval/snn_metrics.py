@@ -1,5 +1,3 @@
-# src/eval/snn_metrics.py
-
 import numpy as np
 import json
 import os
@@ -45,7 +43,6 @@ def evaluate_spikes(path, save_path="outputs/snn_metrics.json", compute_entropy=
         entropy = -np.sum(prob * np.log2(prob + 1e-9))
         metrics["neuron_entropy_bits"] = float(entropy)
 
-    os.makedirs(os.path.dirname(save_path), exist_ok=True)
     with open(save_path, "w") as f:
         json.dump(metrics, f, indent=4)
 

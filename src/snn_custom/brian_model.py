@@ -1,6 +1,3 @@
-# 🧠 NeuroGenAI | Brian2 SNN Simulation
-# Story 4: Build a Spiking Neural Network to process DNABERT-encoded spikes
-
 from brian2 import *
 import numpy as np
 import matplotlib.pyplot as plt
@@ -40,7 +37,6 @@ def run_brian2_simulation(
     plt.ylabel("Voltage (v)")
 
     plt.tight_layout()
-    os.makedirs("outputs", exist_ok=True)
     plt.savefig(plot_path)
     print("📁 Saved raster & voltages to:", plot_path)
 
@@ -113,7 +109,6 @@ plt.xlabel("Time (ms)")
 plt.ylabel("Voltage (v)")
 
 plt.tight_layout()
-os.makedirs("outputs", exist_ok=True)
 plot_path = "outputs/snn_spike_plot.png"
 plt.savefig(plot_path)
 print("📁 Saved raster & voltages to:", plot_path)

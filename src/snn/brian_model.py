@@ -1,5 +1,3 @@
-# 🧠 NeuroGenAI | Universal Brian2 SNN Engine
-
 from brian2 import *
 import numpy as np
 import matplotlib.pyplot as plt
@@ -81,7 +79,6 @@ def run_brian2_simulation(
     plt.ylabel("Voltage (v)")
     plt.tight_layout()
 
-    os.makedirs(os.path.dirname(plot_path), exist_ok=True)
     plt.savefig(plot_path)
     print(f"📁 Saved raster & voltages to: {plot_path}")
 

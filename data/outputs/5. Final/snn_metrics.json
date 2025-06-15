@@ -1,0 +1,10 @@
+{
+    "total_spikes": 3858,
+    "n_neurons": 768,
+    "duration_ms": 99.0,
+    "avg_firing_rate_hz": 50.741792929292934,
+    "spike_density": 0.05074179292929293,
+    "max_firing_rate": 80.80808080808082,
+    "min_firing_rate": 40.40404040404041,
+    "neuron_entropy_bits": 9.566685613057277
+}
