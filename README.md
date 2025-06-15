@@ -6,7 +6,9 @@ It explores how **brain-inspired AI** (Spiking Neural Networks) and **genome-awa
 ## 🚀 Project Vision
 
 > _What if an artificial brain could read your genetic code - and visualize it?_
-![Demo](data/outputs/5. Final/visual_spikes.gif)
+
+
+![Demo](data/outputs/5.%20Final/visual_spikes.gif)
 
 NeuroGenAI merges:
 - 🧠 Spiking Neural Networks (SNNs)
