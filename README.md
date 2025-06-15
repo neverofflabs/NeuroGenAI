@@ -17,7 +17,7 @@ NeuroGenAI merges:
 - 📊 Protein structure visualizations (AlphaFold)
 - 🧠 Hybrid NLP → spike translation
 
-
+![Demo](data/outputs/5.%20Final/snn_spike_plot_3d.png)
 ## 📂 Project Structure
 ```plaintext
 NEUROGENAI/
